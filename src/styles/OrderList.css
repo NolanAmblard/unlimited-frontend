@@ -1,0 +1,36 @@
+.orderlist-title {
+    color: #f5f5f5;
+}
+
+.orderlist {
+    margin-top: 5%;
+    height: 69.2%;
+    position: relative;
+    align-items: center;
+    background-color: #181C27;
+    border: 1px solid #2A2E39;
+}
+
+.orderlist-table-head {
+    color: #c9c9c9;
+    font-weight: lighter;
+    position: relative;
+    align-items: center;
+}
+
+th {
+    font-weight: lighter;
+    font-size: 12px;
+    border-top: 1px solid #2A2E39;
+    border-bottom: 1px solid #2A2E39;
+    padding: 14px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+    color: #fafafa;
+    border-bottom: 1px solid #2A2E39;
+    font-size: 14px;
+}

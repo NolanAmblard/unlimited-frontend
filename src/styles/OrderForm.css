@@ -1,0 +1,93 @@
+.orderform {
+    position: relative;
+    align-items: center;
+    background-color: #181C27;
+    border: 1px solid #2A2E39;
+}
+
+.order-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.orderside-container {
+    display: flex;
+    width: 100%;
+}
+
+.orderside-container button {
+    flex: 1;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.orderside-container button.long- {
+    background-color: #81d45d; /* green for Long */
+    opacity: 50%;
+}
+
+.orderside-container button.long-active {
+    background-color: #487934; /* green for Long */
+    border-bottom: 3px solid #81d45d;
+    opacity: 100%;
+}
+
+.orderside-container button.short- {
+    background-color: #a7372a; /* red for Short */
+    opacity: 50%;
+}
+
+.orderside-container button.short-active {
+    background-color: #a7372a; /* red for Short */
+    border-bottom: 3px solid #e74c3c;
+    opacity: 100%;
+}
+
+.order-submit-button {
+    flex: 1;
+    margin-top: 15px;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f5f5f5;
+    background-color: #141722;
+    cursor: pointer;
+    border: 1px solid #363C4E;
+}
+
+.order-submit-button:hover {
+    background-color: #181C27;
+}
+
+.num-input-container {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.num-input {
+    background-color: #363c4e;
+    border: none;
+    color: #f5f5f5;
+    font-size: 16px;
+    width: 100%;
+}
+
+.num-input::placeholder {
+    color: #a9a9a9;
+    font-size: 13px;
+}
+
+.token-text {
+    color: #c9c9c9;
+    font-size: 16px;
+    margin-left: 8px;
+}

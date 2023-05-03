@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+#root {
+  /* min-height: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  text-align: center;
+  background-color: #141722;
+  min-height: 100vh;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-column {
+  flex: 7;
+  margin-left: 4%;
+  margin-right: 2%;
+}
+
+.middle-column {
+  flex: 1.5;
+  background-color: #181C27;
+  border: 1px solid #363C4E;
+}
+
+.right-column {
+  flex: 1.5;
+  margin-right: 4%;
+  margin-left: 2%;
+}
+
+/* .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  float: right;
+}
+
+.connect-wallet-container {
+  margin-left: auto;
+}
+
+.App-logo {
+  height: 6vh;
+  width: auto;
+}
+
+.App-header {
+  min-height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+} */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.connect-wallet-container {
+  margin-left: auto;
+}
+
+.App-logo {
+  height: 6vh;
+  width: auto;
+  margin-left: calc(50% - 4.6265060241vh);
+}
+
+.App-header {
+  margin-top: 1vh;
+  min-height: 8vh;
+  margin-bottom: 3vh;
+}
